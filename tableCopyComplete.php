@@ -62,6 +62,8 @@
   <script src="assets/js/demo/jquery.sharrre.js"></script>
   <script src="assets/js/demo/demo.js"></script>
 
+ 
+
 </head>
 <body>
 
@@ -95,21 +97,25 @@
    
 
   <?php 
-  
-  if (array_key_exists('postgreSQL', $_POST)) {
-    include 'pgtest.php';
-  }
-
   if (array_key_exists('mysql', $_POST)) {
     include 'sqltest.php';
+    //runMySQLFunction();
+  }
+
+  if (array_key_exists('postgreSQL', $_POST)) {
+    include 'pgtest.php';
+    //runpostgreSQLFunction();
+    
   }
 
   if (array_key_exists('sqlite', $_POST)) {
     include 'sqlite.php';
+    //runmsSQLiteFunction();
   }
 
   if (array_key_exists('oracle', $_POST)) {
     include 'maria.php';
+    //runmariaFunction();
   }
   ?>
 

@@ -65,8 +65,67 @@
         $conn->close();
       ?>
       </tbody>
-    </table>
-  </div>
+      
+      <!-- <form method="post" action="insert.php">
+
+        <p>
+        <label>SSN
+        <input type="text" name="ssn">
+        </label> 
+        </p>
+
+        <p>
+        <label>Full name 
+        <input type="text" name="full">
+        </label>
+        </p>
+
+        <p>
+        <label>Date of birth
+        <input type="datetime-local" name="dob">
+        </label>
+        </p>
+
+        <fieldset>
+        <p>
+        <label>Occupation
+        <input type="email" name="occ">
+        </label>
+        </p>
+
+        <p>
+        <label>Nationality
+        <input type="text" name="nation">
+        </label>
+        </p>
+          
+        <p>
+        <label>Place of Birth
+        <input type="text" name="pob">
+        </label>
+        </p>
+
+        <p>
+        <label>Date of Registration
+        <input type="datetime-local" name="dor">
+        </label>
+
+        <p>
+        <label>Date of Issurance
+        <input type="datetime-local" name="doi">
+        </label>
+
+        <p><input name="submit" type="submit" /></p>
+        </form> -->
+
+</table>
+
+
+
+    
+
+
+
 
 
 
